@@ -69,6 +69,8 @@ gem 'bootstrap', '4.0.0.alpha6'
 gem 'simple_form'
 gem 'kaminari'
 gem 'font-awesome-rails'
+gem "geocoder"
+gem "figaro"
 
 
 source 'https://rails-assets.org' do
