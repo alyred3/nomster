@@ -67,7 +67,7 @@ gem 'popper_js', '~> 1.11.1'
 gem 'bootstrap', '4.0.0.alpha6'
 
 gem 'simple_form'
-gem 'kaminari'
+gem 'will_paginate', '~> 3.1.0'
 gem 'font-awesome-rails'
 gem "geocoder"
 gem "figaro"
