@@ -7,11 +7,9 @@
 
 
   <style>
-    html, body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    }
+  #map {
+    height: 300px;
+  }
   </style>
 
 <% if @place.latitude.present? && @place.longitude.present? %>
@@ -35,7 +33,7 @@ function initMap() {
   </script>
 
   <script async defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1GE-Oe8nd2ObXSVJEywACjnA-ovS3Q9U&callback=initMap">
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_Gipx_xykmV4WYrUmyj0ENzqXmM1AhPY&callback=initMap">
   </script>
 
   <div id="map"></div>
