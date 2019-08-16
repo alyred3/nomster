@@ -14,12 +14,18 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.2]
       ## Rememberable
       t.datetime :remember_created_at
 
+class AddTrackableColumnsToUser < ActiveRecord::Migration[4.2]
+  def change
+    change_table :users do |t|
       ## Trackable
-      # t.integer  :sign_in_count, default: 0, null: false
-      # t.datetime :current_sign_in_at
-      # t.datetime :last_sign_in_at
-      # t.inet     :current_sign_in_ip
-      # t.inet     :last_sign_in_ip
+      t.add_column :sign_in_count, :integer, :default => 0
+      t.add_column :current_sign_in_at, :datetime
+      t.add_column :last_sign_in_at, :datetime
+      t.add_column :current_sign_in_ip, :string
+      t.add_column :last_sign_in_ip, :string
+    end
+  end
+end
 
       ## Confirmable
       # t.string   :confirmation_token
