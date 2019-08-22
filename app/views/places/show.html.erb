@@ -41,6 +41,15 @@ function initMap() {
 
   <br />
 
+
+<div class="col-10 offset-1">
+  <!-- Image Button trigger modal -->
+  <br />
+  <button type="button" class="btn btn-primary btn-lg float-right" data-toggle="modal" data-target="#myModal2">
+    Add an Image
+  </button>
+</div>
+
   <div class="float-right">
     <% if current_user && current_user == @place.user %>
       <%= link_to 'Edit', edit_place_path(@place), class: 'btn btn-primary' %>   
@@ -53,9 +62,13 @@ function initMap() {
 
 <div class="clear"></div>
 
+<br />
 
 
-<!-- Modal -->
+
+
+
+<!-- Comment Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -100,13 +113,36 @@ function initMap() {
         <small><%= comment.user.email %></small>
       </blockquote>
     </div>
-
-
   <% end %>
 </div>
 
-<%= simple_form_for @photo, url: place_photos_path(@place) do |f| %>
-  <%= f.input :caption %>
-  <%= f.input :picture %>
-  <%= f.submit "Add a picture", class: 'btn btn-primary' %>
-<% end %>
+<!-- Image Modal -->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">x</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel2">Add Photo and caption</h4>
+      </div>
+
+  <div class="modal-body">   
+    <%= simple_form_for @photo, url: place_photos_path(@place) do |f| %>
+      <%= f.input :caption %>
+      <%= f.input :picture %>
+      <%= f.submit "Add image", class: 'btn btn-primary' %>
+  </div>
+  <% end %>
+    </div>
+  </div>
+</div>
+
+
+  <div class="clear"></div>
+
+  <div class="row">
+    <% @place.photos.each do |photo| %>
+      <%= image_tag photo.picture.url, :width => 400 %>
+    <% end %>
+  </div>
