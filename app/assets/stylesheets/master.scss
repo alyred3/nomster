@@ -2,6 +2,7 @@
 @import "font-awesome";
 
 @import url('https://fonts.googleapis.com/css?family=News+Cycle&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Chilanka|Kavivanar|Liu+Jian+Mao+Cao|Merienda|Nanum+Brush+Script|Tillana&display=swap');
 
 
 .booyah-box {
@@ -23,11 +24,11 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   background: image_url('foodicons.png');
-  font-family: 'News Cycle', sans-serif;
+  font-family: 'Merienda', cursive;
 }
 
 .navbar {
-  background: image_url('papyrus-dark.png');
+  background: image_url('cartographer.png');
   box-shadow: 0px 1px 3px #2a2a2a;
   margin-bottom: 0;
 }
@@ -81,7 +82,7 @@ blockquote p {
 }
 
 .carousel-caption {
- font-family: 'News Cycle', sans-serif;
+ font-family: 'Liu Jian Mao Cao', cursive;
   font-size: 60px;
   font-weight: 100;
   text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
