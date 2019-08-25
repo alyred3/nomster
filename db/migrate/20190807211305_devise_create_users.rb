@@ -14,9 +14,7 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.2]
       ## Rememberable
       t.datetime :remember_created_at
 
-class AddTrackableColumnsToUser < ActiveRecord::Migration[4.2]
-  def change
-    change_table :users do |t|
+
       ## Trackable
       t.add_column :sign_in_count, :integer, :default => 0
       t.add_column :current_sign_in_at, :datetime
