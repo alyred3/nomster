@@ -55,8 +55,7 @@ function initMap() {
       <%= link_to 'Edit', edit_place_path(@place), class: 'btn btn-primary' %>   
       <%= link_to 'Destroy', place_path(@place), method: :delete, data: {confirm: 'Are you sure you want to delete this?'}, class: 'btn btn-danger' %>
     <% end %>
-   
-  </div>
+    </div>
 </div>
 
 
@@ -148,7 +147,7 @@ function initMap() {
 <div class="row col-10">
   <% @place.photos.each do |photo| %>
     <div class="col-4 col-sm-6">
-      <%= image_tag photo.picture.to_s, class: 'img-fluid' %>
+      <%= image_tag photo.picture.to_s, class: 'img-fluid' %><br />
       <%= photo.caption %>
     </div>
   <% end %>

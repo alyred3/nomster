@@ -6,21 +6,21 @@
   </ol>
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
-      <%= image_tag 'slider4.jpg', class: 'img-fluid' %>
+      <%= image_tag 'slider2.jpg', class: 'img-fluid' %>
         <div class="carousel-caption d-none d-md-block">
-        <h3>Salad Monster</h3>
+        <h3>Flying Pie</h3>
       </div>
         </div>
     <div class="carousel-item">
-      <%= image_tag 'slider1.jpg', class: 'img-fluid' %>
+      <%= image_tag 'slider1r.jpg', class: 'img-fluid' %>
         <div class="carousel-caption d-none d-md-block">
-        <h3>Mac and Cheese dishes at Hushpuppies</h3>
+        <h3>Early Birds</h3>
     </div>
       </div>
     <div class="carousel-item">
-           <%= image_tag 'slider3.jpg', class: 'img-fluid' %>
+           <%= image_tag 'slider4.jpg', class: 'img-fluid' %>
       <div class="carousel-caption d-none d-md-block">
-        <h3>Banana Pancakes Early Birds</h3>
+        <h3>Montage</h3>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -54,7 +54,7 @@
   <% if place.photos.present? %>
     <% if place.photos.first.picture.url != nil %>
       <%= image_tag place.photos.first.picture.url, class: 'col-2' %>
-     <% end %>
+    <% end %>
   <% end %>
 
   <% if place.comments.present? %>
@@ -66,10 +66,10 @@
         <%= place.comments.last.message %>
         <small><%= place.comments.last.user.email %></small>
       </blockquote>
+      </div>
+        <% end %>
     </div>
   <% end %>
-  </div>
-<% end %>
 
 <div class="flicker_pagination">
   <div class="page_info">
