@@ -16,11 +16,11 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.2]
 
 
       ## Trackable
-      t.add_column :sign_in_count, :integer, :default => 0
-      t.add_column :current_sign_in_at, :datetime
-      t.add_column :last_sign_in_at, :datetime
-      t.add_column :current_sign_in_ip, :string
-      t.add_column :last_sign_in_ip, :string
+      t.integer  :sign_in_count, default: 0, null: false
+      t.datetime :current_sign_in_at
+      t.datetime :last_sign_in_at
+      t.inet     :current_sign_in_ip
+      t.inet     :last_sign_in_ip
   
 
       ## Confirmable
