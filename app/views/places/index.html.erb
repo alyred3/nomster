@@ -52,9 +52,11 @@
     <br />
 
   <% if place.photos.present? %>
-    <% if place.photos.first.picture.url != nil %>
-      <%= image_tag place.photos.first.picture.url, class: 'index-image-size'%>
-    <% end %>
+    <div class="col-10 offset-1">
+      <% if place.photos.first.picture.url != nil %>
+        <%= image_tag place.photos.first.picture.url, class: 'index-image-size'%>
+      <% end %>
+    </div>
   <% end %>
 
   <% if place.comments.present? %>
