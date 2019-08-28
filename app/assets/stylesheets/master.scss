@@ -76,10 +76,13 @@ blockquote p {
   display: inline;
 }
 
-
+.index-image-size {
+  height: 500px;
+  width: 100%;
+  object-fit: contain;
   
   
-
+}
 
 .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
   max-height: 500px;
