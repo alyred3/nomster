@@ -53,7 +53,7 @@
 
   <% if place.photos.present? %>
     <% if place.photos.first.picture.url != nil %>
-      <%= image_tag place.photos.first.picture.url, class: 'col-5' %>
+      <%= image_tag place.photos.first.picture.url, class: 'index-image-size'%>
     <% end %>
   <% end %>
 
