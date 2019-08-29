@@ -5,7 +5,7 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :trackable, :validatable
 
   has_many :places
-  has_many :comments
+  has_many :comments, dependent: :destroy
   has_many :photos
 
 end
