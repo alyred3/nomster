@@ -2,11 +2,11 @@
 
 A Yelp clone that integrates with the Google API and includes features such as user comments, user authentication, star ratings and image uploads.
 
-[View the deployed application]https://nomster-alyssa-redman.herokuapp.com/
+[View the deployed application](https://nomster-alyssa-redman.herokuapp.com/)
 
 __
 
-###Features
+### Features
 
 * Ruby 2.5.3
 
@@ -28,7 +28,7 @@ __
 
 __
 
-###Screenshots
+### Screenshots
 ![Screenshot](app/assets/images/landing.png)
 ![Screenshot](app/assets/images/place.png)
 ![Screenshot](app/assets/images/placesubmission.png)
