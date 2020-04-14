@@ -1,24 +1,34 @@
-# README
+# Nomster
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Yelp clone that integrates with the Google API and includes features such as user comments, user authentication, star ratings and image uploads.
 
-Things you may want to cover:
+[View the deployed application]https://nomster-alyssa-redman.herokuapp.com/
 
-* Ruby version
+__
 
-* System dependencies
+###Features
 
-* Configuration
+* Ruby 2.5.3
 
-* Database creation
+* jQuery
 
-* Database initialization
+* PostgresSQL
 
-* How to run the test suite
+* TwitterBootstrap3 for CSS
 
-* Services (job queues, cache servers, search engines, etc.)
+* Devise for user authentication
 
-* Deployment instructions
+* Geocoder gem with Google Geocoding API to display maps
 
-* ...
+* Simple Form gem for generating new entries
+
+* Amazon Web Services(AWS) photo storage
+
+* Will Paginate gem for page pagination
+
+__
+
+###Screenshots
+![Screenshot](app/assets/images/landing.png)
+![Screenshot](app/assets/images/place.png)
+![Screenshot](app/assets/images/placesubmission.png)
