@@ -4,17 +4,15 @@ A Yelp clone that integrates with the Google API and includes features such as u
 
 [View the deployed application](https://nomster-alyssa-redman.herokuapp.com/)
 
-__
+______
 
 ### Features
 
 * Ruby 2.5.3
 
-* jQuery
+* jQuery, Bootstrap, CSS
 
 * PostgresSQL
-
-* TwitterBootstrap3 for CSS
 
 * Devise for user authentication
 
@@ -26,9 +24,13 @@ __
 
 * Will Paginate gem for page pagination
 
-__
+### How to use
+
+Guests can view local restuarant's reviews, ratings, and maps. Users can add new restaurants, upload images, leave reviews, and give ratings. A user can view their places and comments on their user profile, where they can navigate to pages to delete or edit.  
+____
 
 ### Screenshots
 ![Screenshot](app/assets/images/landing.png)
 ![Screenshot](app/assets/images/place.png)
 ![Screenshot](app/assets/images/placesubmission.png)
+![Screenshot](app/assets/images/profile.png)
