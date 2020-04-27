@@ -1,6 +1,6 @@
 # Nomster
 
-A Yelp clone that integrates with the Google API and includes features such as user comments, user authentication, star ratings and image uploads.
+A Yelp clone that integrates with the Google API and includes features such as user comments, user authentication, star ratings, and image uploads.
 
 [View the deployed application](https://nomster-alyssa-redman.herokuapp.com/)
 
