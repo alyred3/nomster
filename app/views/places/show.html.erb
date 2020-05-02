@@ -139,8 +139,8 @@
 
 <div class="row col-10 offset-1">
   <% @place.photos.each do |photo| %>
-    <div class="col-4 col-sm-6">
-      <%= image_tag photo.picture.to_s, class: 'img-fluid' %><br />
+    <div class="col-sm-3">
+      <%= image_tag photo.picture.to_s, class: 'img-fluid-show' %>
       <%= photo.caption %>
     </div>
   <% end %>

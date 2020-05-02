@@ -25,6 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
   background: image_url('foodicons.png');
   font-family: 'Merienda', cursive;
+  font-size: 25px;
 }
 
 .navbar {
@@ -76,6 +77,25 @@ blockquote p {
   display: inline;
 }
 
+.img-fluid-show {
+  margin: 2em 0px 3em 0;
+  overflow: hidden; 
+  position: relative; 
+  width: 350px;
+  height: 350px;
+}
+
+img.img-fluid-show {
+  position:absolute;
+  top:-10px;
+  left:-45px;
+  }
+
+  .col-sm-3 {
+    text-indent: -2.2em;
+  }
+
+
 .index-image-size {
   width:  500px;
   height: 500px;
@@ -83,12 +103,6 @@ blockquote p {
   display: block;
   margin-left: auto;  
   margin-right: auto;
-}
-
-.image-fluid {
-  width: auto;
-  hight: 300px;
-  overflow: hidden;
 }
 
 .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
