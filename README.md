@@ -42,7 +42,8 @@ Run `$ bundle install`
 
 Run `$ bundle exec figaro install` to add `config/application.yml`  to add to your `.gitignore`
 
-To integrate with Google Geocoding API replace the 'YOUR_API_KEY_HERE' with the API key you have listed on your google account in `config/application.yml`.
+To integrate with Google Geocoding API replace the 'YOUR_API_KEY_HERE' with the API key you have listed on your google account in `config/application.yml`
+[Amazon S3 accounts can be set up here](https://docs.aws.amazon.com/AmazonS3/latest/gsg/SigningUpforS3.html)
 
 
 ### How to use
