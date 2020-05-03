@@ -30,9 +30,7 @@ _____
 
 ### Installation 
 
-Clone with SSH `git@github.com:alyred3/nomster.git` or
-
-Clone with HTTPS `https://github.com/alyred3/nomster.git`
+Clone with SSH `git@github.com:alyred3/nomster.git` or HTTPS `https://github.com/alyred3/nomster.git`
 
 Run 'git clone git@github.com:alyred3/nomster.git' or 'git clone https://github.com/alyred3/nomster.git' in local command line
 
