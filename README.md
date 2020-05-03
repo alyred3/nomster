@@ -26,20 +26,20 @@ ______
 
 ### How to use
 
-## Creating an account
+#### Creating an account
 ![Screenshot](app/assets/images/create.gif)
 
 
-## Adding a new place
+#### Adding a new place
 ![Screenshot](app/assets/images/new.gif)
 
-## Adding images, comments, and ratings
+#### Adding images, comments, and ratings
 ![Screenshot](app/assets/images/add.gif)
 
-## Track places and comments in user profile
+#### Track places and comments in user profile
 ![Screenshot](app/assets/images/profile.gif)
 
-## Editing and deleting 
+#### Editing and deleting 
 ![Screenshot](app/assets/images/editdelete.gif)
 
 
