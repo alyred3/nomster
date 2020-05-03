@@ -40,8 +40,6 @@ Paste clone command into command line `$ git clone git@github.com:alyred3/nomste
 
 Run `$ bundle install`
 
-Run `$ rbenv rehash`
-
 Run `$ bundle exec figaro install` to add `config/application.yml`  to add to your `.gitignore`
 
 To integrate with Google Geocoding API replace the 'YOUR_API_KEY_HERE' with the API key you have listed on your google account in `config/application.yml`.
