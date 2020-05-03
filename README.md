@@ -26,6 +26,22 @@ ______
 
 ### How to use
 
+Create an account
+![Screenshot](app/assets/images/create.gif)
+
+
+Add a new place
+![Screenshot](app/assets/images/.gif)
+
+Add images, comments, and ratings
+![Screenshot](app/assets/images/.gif)
+
+Track places and comments in user profile
+![Screenshot](app/assets/images/.gif)
+
+Edit or delete
+![Screenshot](app/assets/images/.gif)
+
 Guests can view local restuarant's reviews, ratings, and maps. Users can add new restaurants, upload images, leave reviews, and give ratings. A user can view their places and comments on their user profile, where they can navigate to pages to delete or edit.  
 ____
 
