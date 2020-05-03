@@ -24,6 +24,8 @@ ______
 
 * Amazon Web Services(AWS) photo storage
 
+* Figaro gem for secure configuration
+
 * Will Paginate gem for page pagination
 
 _____
@@ -40,7 +42,7 @@ Run `$ bundle install`
 
 Run `$ rbenv rehash`
 
-Run `$ figaro install`
+Run `$ bundle exec figaro install` to add `config/application.yml`  to add to your `.gitignore`
 
 To integrate with Google Geocoding API replace the 'YOUR_API_KEY_HERE' with the API key you have listed on your google account in `config/application.yml`.
 
