@@ -34,7 +34,7 @@ From this repository click <b>Clone or download</b> and copy command for SSH `gi
 
 From terminal window change to local directory where you want to clone repo
 
-Paste clone command into command line `$ git clone git@github.com:alyred3/nomster.git` or `git clone https://github.com/alyred3/nomster.git`
+Paste clone command into command line `$ git clone git@github.com:alyred3/nomster.git` or `$ git clone https://github.com/alyred3/nomster.git`
 
 Run `$ bundle install`
 
