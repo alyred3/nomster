@@ -30,15 +30,17 @@ _____
 
 ### Installation 
 
-Clone with SSH `git@github.com:alyred3/nomster.git` or HTTPS `https://github.com/alyred3/nomster.git`
+From this repository click <b>Clone or download</b> and copy command for SSH `git@github.com:alyred3/nomster.git` or HTTPS `https://github.com/alyred3/nomster.git`
 
-Run `git clone git@github.com:alyred3/nomster.git` or `git clone https://github.com/alyred3/nomster.git` in local command line
+From terminal window change to local directory where you want to clone repo
 
-Run `bundle install`
+Paste clone command into command line `$ git clone git@github.com:alyred3/nomster.git` or `git clone https://github.com/alyred3/nomster.git`
 
-Run `rbenv rehash`
+Run `$ bundle install`
 
-Run `figaro install`
+Run `$ rbenv rehash`
+
+Run `$ figaro install`
 
 To integrate with Google Geocoding API replace the 'YOUR_API_KEY_HERE' with the API key you have listed on your google account in `config/application.yml`.
 
