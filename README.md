@@ -31,7 +31,7 @@ Create an account
 
 
 Add a new place
-![Screenshot](app/assets/images/.gif)
+![Screenshot](app/assets/images/new.gif)
 
 Add images, comments, and ratings
 ![Screenshot](app/assets/images/.gif)
