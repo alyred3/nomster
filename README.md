@@ -22,7 +22,9 @@ ______
 
 * Simple Form gem for generating new entries
 
-* Amazon Web Services(AWS) photo storage
+* CarrierWave for file uploads
+
+* Amazon Web Services(AWS) for photo storage
 
 * Figaro gem for secure configuration
 
@@ -42,7 +44,7 @@ Run `$ bundle install`
 
 Run `$ bundle exec figaro install` to add `config/application.yml`  to add to your `.gitignore`
 
-To integrate with Google Geocoding API replace the 'YOUR_API_KEY_HERE' with the API key you have listed on your google account in `config/application.yml`
+To integrate with Google Geocoding API replace the 'YOUR_API_KEY_HERE' with the API key you have listed on your google account in `config/application.yml`<br />
 [Amazon S3 accounts can be set up here](https://docs.aws.amazon.com/AmazonS3/latest/gsg/SigningUpforS3.html)
 
 
